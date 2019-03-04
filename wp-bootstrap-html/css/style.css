@@ -1,5 +1,6 @@
-/* stylelint-disable selector-list-comma-newline-after */
-
+/* Template styles from Bootstrap examples page:
+ * https://getbootstrap.com/docs/4.3/examples/blog/
+ */
 .blog-header {
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;
@@ -74,10 +75,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/*
-   * Blog name and description
-   */
-
+/* Blog name and description */
 .blog-title {
     margin-bottom: 0;
     font-size: 2rem;
@@ -96,7 +94,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Pagination */
-
 .blog-pagination {
     margin-bottom: 4rem;
 }
@@ -105,10 +102,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 2rem;
 }
 
-/*
-   * Blog posts
-   */
-
+/* Blog posts */
 .blog-post {
     margin-bottom: 4rem;
 }
@@ -123,16 +117,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #999;
 }
 
-/*
-   * Footer
-   */
-
+/* Footer */
 .blog-footer {
     padding: 2.5rem 0;
     color: #999;
     text-align: center;
     background-color: #f9f9f9;
-    border-top: .05rem solid #e5e5e5;
+    border-top: #e5e5e5 .05rem solid;
 }
 
 .blog-footer p:last-child {
@@ -144,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 600px;
     padding: 100px 20px;
     text-align: center;
-    border-bottom: 1px #ccc solid;
+    border-bottom: #ccc 1px solid;
     margin-bottom: 30px;
     color: #fff;
     background: url('../img/showcase.jpg') no-repeat center center;
@@ -169,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .box {
     padding: 15px;
-    border: 1px #ccc solid;
+    border: #ccc 1px solid;
 }
 
 .box .fa {
